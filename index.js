@@ -6,8 +6,7 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine, name) {
   for (var i = 0; i < katzDeliLine.length; i++) {
   if (i===0) {
-    return name
-    katzDeliLine.pop(name);
+    return name + katzDeliLine.pop(name);
   } else {
     return "There is nobody waiting to be served!"
   }
