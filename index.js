@@ -4,7 +4,6 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine, name) {
-  line = []
   for (var i = 0; i < katzDeliLine.length; i++) {
   if (i===0) {
     return name
